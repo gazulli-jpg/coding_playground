@@ -1,0 +1,10 @@
+name: MY first playground
+
+on: [push]
+
+jobs:
+  check-version:
+    runs-on: ubuntu-latest
+      steps:
+        - name: Check version
+           run:echo "Version is 1.0.0"
